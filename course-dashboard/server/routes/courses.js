@@ -5,7 +5,7 @@ import User from '../models/User.js';
 
 const router = express.Router();
 
-// GET /api/courses
+// GET all courses
 router.get('/', async (req, res) => {
   try {
     const users = await User.find();
