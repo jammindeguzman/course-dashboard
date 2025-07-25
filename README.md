@@ -34,8 +34,8 @@ Runs on http://localhost:5173 (default Vite dev port)
 - npm install
 
 ### 4. Create .env file inside /server:
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
+- PORT=5000
+- MONGO_URI=your_mongodb_connection_string
 
 ### 5. Then run the backend server:
 npm run dev
