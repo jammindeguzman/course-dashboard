@@ -43,7 +43,8 @@ npm run dev
 Runs on http://localhost:5000
 
 API Endpoint
-- GET / - Fetch all courses
+- GET /api/courses - Fetch all courses
+- GET /api/users/:courseId - Fetch all users by course
 
 Tech Stack
 Frontend:
