@@ -19,19 +19,19 @@ course-dashboard/
 
 ### 1. Clone the repository
 
-git clone https://github.com/jammindeguzman/course-dashboard.git
-cd course-dashboard
+- git clone https://github.com/jammindeguzman/course-dashboard.git
+- cd course-dashboard
 
 ### 2. Frontend Setup
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
 Runs on http://localhost:5173 (default Vite dev port)
 
 ### 3. Backend Setup
-cd server
-npm install
+- cd server
+- npm install
 
 ### 4. Create .env file inside /server:
 PORT=5000
