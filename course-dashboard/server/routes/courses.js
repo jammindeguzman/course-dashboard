@@ -1,11 +1,10 @@
-// server/routes/courses.js
 import express from 'express';
 import Course from '../models/Course.js';
 import User from '../models/User.js';
 
 const router = express.Router();
 
-// GET all courses
+// GET /api/courses
 router.get('/', async (req, res) => {
   try {
     const users = await User.find();
